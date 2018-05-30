@@ -6,5 +6,5 @@
 #### MyMacEnvironmentGuide文件夹 : 
 主要收录个人 Mac 配置记录
 
-#### JAVA相关文件夹
+#### JAVA相关文件夹 :
 主要收录个人学习笔记 
