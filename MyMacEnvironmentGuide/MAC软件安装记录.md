@@ -108,7 +108,7 @@ JavaScript开发工具
 
 7. CSS Format/JsFormat/HTML5/jQuery (适配语言)
 
-   ​
+  
 
 #### Docker
 
@@ -152,7 +152,7 @@ GitHub桌面客户端
 
 ------
 
-## 文本工具
+### 文本工具
 
 #### Dash
 
@@ -208,7 +208,7 @@ Markdown编辑器
 
 ------
 
-## 图形工具
+### 图形工具
 
 #### Xmind
 
@@ -242,7 +242,7 @@ Markdown编辑器
 
 ------
 
-## 网络工具
+### 网络工具
 
 #### Chrome
 
