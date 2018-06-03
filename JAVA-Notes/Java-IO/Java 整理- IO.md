@@ -1,7 +1,5 @@
 # 链接地址
 
-(本文据网上资料与源码整理为个人学习之用,有错漏之处敬请指出)
-
 [Java I/O 演变系列(作者Joanna.Yan)](http://www.cnblogs.com/Joanna-Yan/p/7419117.html)
 
 

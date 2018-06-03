@@ -1,7 +1,5 @@
 # 链接地址
 
-(本文据网上资料与JDK源码整理为个人学习之用,JDK不同版本有所区别,有错漏之处敬请指出)
-
 [Hosee 的博客](https://my.oschina.net/hosee/blog?sort=time&catalog=3299741&p=4&temp=1520860454021)
 
 [Java多线程与并发库高级应用](https://yq.aliyun.com/articles/65179)
