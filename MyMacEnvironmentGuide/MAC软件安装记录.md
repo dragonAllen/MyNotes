@@ -144,7 +144,17 @@ FTP 工具
 
 终端,配置ZSH+高亮插件
 
+环境变量优先级: /etc/profile, /etc/paths, ~/.bash_profile, ~/.bash_login, ~/.profile, ~/.bashrc</br>
+/etc/profile （建议不修改这个文件 ） 全局（公有）配置,不管是哪个用户,登录时都会读取该文件</br>
+/etc/bashrc （一般在这个文件中添加系统级环境变量） 全局（公有）配置,bash shell执行时,不管是何种方式,都会读取此文件</br>
+~/.bash_profile （一般在这个文件中添加用户级环境变量） 每个用户都可使用该文件输入专用于自己使用的shell信息,当用户登录时,该文件仅仅执行一次</br>
+使用命令 echo $SHELL </br>
+如果输出的是:csh或者是tcsh,那么用的就是C Shell</br>
+如果输出的是:bash,sh,zsh,那么你的用的可能就是Bourne Shell的一个变种;Mac OS X 10.2之前默认的是C Shell;Mac OS X 10.3之后默认的是Bourne Shell</br>
 
+host文件位置: command+shift+g → /etc/hosts
+
+ssh 文件位置: 默认为用户名下command+shift+. 开启隐藏文件显示; 控制台使用 → cd ~/.ssh
 
 #### GitHub Desktop
 
