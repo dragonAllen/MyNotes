@@ -6,17 +6,29 @@ MAC:Command+鼠标左键
 
 Windows:Ctrl+鼠标左键
 
-------
+
 
 ## 网络资源
 
-[笔试面试知识整理](https://hit-alibaba.github.io/interview/index.html)
+[GitHub-技术面试基础整理](https://github.com/CyC2018/Interview-Notebook)
 
-[阿里巴巴常考面试题及汇总答案（上篇）](https://yq.aliyun.com/articles/6656)
+[GitHub-笔试面试知识整理](https://hit-alibaba.github.io/interview/index.html)
 
-[阿里巴巴常考面试题及汇总答案（下篇）](https://yq.aliyun.com/articles/7468?spm=a2c4e.11153940.blogcont6656.27.3b4f6184Tw8rC8)
+[骆昊JAVA面试题(上)](https://blog.csdn.net/jackfrued/article/details/44921941)
 
+[骆昊JAVA面试题(中)](https://blog.csdn.net/jackfrued/article/details/44931137)
 
+[骆昊JAVA面试题(下)](https://blog.csdn.net/jackfrued/article/details/44931161)
+
+[知乎路人甲-JAVA 社招](https://zhuanlan.zhihu.com/p/21551758)
+
+[知乎路人甲-JAVA 校招](https://zhuanlan.zhihu.com/p/21513402)
+
+[知乎路人甲-数据库](https://zhuanlan.zhihu.com/p/23713529)
+
+[知乎路人甲-操作系统](https://zhuanlan.zhihu.com/p/23755202)
+
+[知乎路人甲-计算机网络](https://zhuanlan.zhihu.com/p/24001696)
 
 ## 参考书籍
 
@@ -26,7 +38,7 @@ Windows:Ctrl+鼠标左键
 
 ------
 
-# 笔试面试题
+# 面试题解
 
 ## 计算机基础
 
@@ -61,3 +73,9 @@ Windows:Ctrl+鼠标左键
 
 
 ## LeetCode
+
+### Easy
+
+### Medium
+
+### Hard
