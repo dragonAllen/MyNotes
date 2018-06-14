@@ -218,6 +218,10 @@ Windows:Ctrl+鼠标左键
 
 [小M的博客园](http://www.cnblogs.com/xiaoMzjm/)
 
+[Ryan.Miao](http://www.cnblogs.com/woshimrf/)
+
+[brianway](https://blog.csdn.net/h3243212)
+
 [腾讯全端](http://www.alloyteam.com/)
 
 [腾讯玩书](http://tgideas.qq.com/)

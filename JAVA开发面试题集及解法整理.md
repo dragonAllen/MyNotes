@@ -74,8 +74,6 @@ Windows:Ctrl+鼠标左键
 
 ## LeetCode
 
-### Easy
 
-### Medium
 
-### Hard
+## HackerRank
