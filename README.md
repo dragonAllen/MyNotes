@@ -8,20 +8,20 @@
 #### JAVA-Notes文件夹 :
 主要收录个人JAVA学习笔记
 
-[Java 整理-集合](/MyNotes/JAVA-Notes/Java-Collection/Java 整理-集合.md)
+[Java 整理-集合](https://github.com/dragonAllen/MyNotes/blob/master/JAVA-Notes/Java-Collection/Java%20%E6%95%B4%E7%90%86-%E9%9B%86%E5%90%88.md)
 
-[Java 整理-多线程与并发](/MyNotes/JAVA-Notes/Java-Concurrent/Java 整理-多线程与并发.md)
+[Java 整理-多线程与并发](https://github.com/dragonAllen/MyNotes/blob/master/JAVA-Notes/Java-Concurrent/Java%20%E6%95%B4%E7%90%86-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%8E%E5%B9%B6%E5%8F%91.md)
 
-[Java 整理- IO](/MyNotes/JAVA-Notes/Java-IO/Java 整理- IO.md)
+[Java 整理- IO](https://github.com/dragonAllen/MyNotes/blob/master/JAVA-Notes/Java-IO/Java%20%E6%95%B4%E7%90%86-%20IO.md)
 
-[Java 整理-String](/MyNotes/JAVA-Notes/Java-String/Java 整理-String.md)
+[Java 整理-String](https://github.com/dragonAllen/MyNotes/blob/master/JAVA-Notes/Java-String/Java%20%E6%95%B4%E7%90%86-String.md)
 
-[Java编程思想笔记](/MyNotes/JAVA-Notes/Think in Java/Java编程思想笔记.md)
+[Java编程思想笔记](https://github.com/dragonAllen/MyNotes/blob/master/JAVA-Notes/Think%20in%20Java/Java%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E7%AC%94%E8%AE%B0.md)
 
 #### MyMacEnvironmentGuide文件夹 : 
 主要收录个人 Mac 环境配置记录
 
-[MAC软件安装记录](/MyNotes/MyMacEnvironmentGuide/MAC软件安装记录.md)
+[MAC软件安装记录](https://github.com/dragonAllen/MyNotes/blob/master/MyMacEnvironmentGuide/MAC%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95.md)
 
 #### IT资源链接整理 : 
 主要收录个人浏览器的部分书签链接(除去各大流量网站如GitHub),Github类目仅收录共享书籍
