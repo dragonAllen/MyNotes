@@ -1,8 +1,6 @@
 # 链接地址
 
-(本文据网上资料与JDK源码整理为个人学习之用,JDK不同版本有所区别,有错漏之处敬请指出)
-
-[五月的仓颉-博客园](http://www.cnblogs.com/xrq730/p/6757230.html)
+五月的仓颉-博客园](http://www.cnblogs.com/xrq730/p/6757230.html)
 
 # 集合框架
 
