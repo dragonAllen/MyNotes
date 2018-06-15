@@ -3,7 +3,7 @@
 #### AliyunECS文件夹
 主要收录个人阿里云ECS的配置记录
 
-[阿里云 ECS 配置.md](MyNotes/AliyunECS/阿里云 ECS 配置.md)
+[阿里云 ECS 配置.md](./AliyunECS/阿里云 ECS 配置.md)
 
 #### JAVA-Notes文件夹 :
 主要收录个人JAVA学习笔记
