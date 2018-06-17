@@ -6,6 +6,8 @@
 
 [Nginx中文文档](http://www.nginx.cn/doc/)
 
+[W3C Nginx](https://www.w3cschool.cn/nginxsysc/gtxqwj.html)
+
 [nginx 并发数问题思考：worker_connections,worker_processes与 max clients](http://blog.51cto.com/liuqunying/1420556)
 
 [Nginx配置性能优化](https://blog.csdn.net/xifeijian/article/details/20956605)
@@ -341,21 +343,21 @@ http {
     # 对于普通应用,必须设为 on
     # 如果用来进行下载等应用磁盘IO重负载应用,可设置为 off
     # 以平衡磁盘与网络I/O处理速度，降低系统的uptime.
-    sendfile            on;
+    sendfile on;
     
     # 告诉nginx在一个数据包里发送所有头文件,而不一个接一个的发送
-    tcp_nopush          on;
+    tcp_nopush on;
     
     # 告诉nginx不要缓存数据,而是一段一段的发送--当需要及时发送数据时,就应该给应用设置这个属性,这样发送一小块数据信息时就不能立即得到返回值
-    tcp_nodelay         on;
+    tcp_nodelay on;
     
     # 连接超时时间
     keepalive_timeout   65;
     types_hash_max_size 2048;
 	
 	# 设定mime类型,类型由mime.type文件定义
-    include             /etc/nginx/mime.types;
-    default_type        application/octet-stream;
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
 
     # Load modular configuration files from the /etc/nginx/conf.d directory.
     # See http://nginx.org/en/docs/ngx_core_module.html#include
@@ -365,23 +367,25 @@ http {
     server {
     	# 监听80端口
     	# Ipv4 和Ipv6
-        listen       80 default_server;
-        listen       [::]:80 default_server;
+        listen  80 default_server;
+        listen  [::]:80 default_server;
         # 定义使用 www.xx.cn访问
         server_name  _;
         # 定义服务器的默认网站根目录位置
-        root         /usr/share/nginx/html;
+        root /usr/share/nginx/html;
 
         # Load configuration files for the default server block.
         include /etc/nginx/default.d/*.conf;
-
+		
+		
         location / {
         }
-
+		
+		# 定义错误提示页面
         error_page 404 /404.html;
             location = /40x.html {
         }
-
+		# 定义错误提示页面
         error_page 500 502 503 504 /50x.html;
             location = /50x.html {
         }
