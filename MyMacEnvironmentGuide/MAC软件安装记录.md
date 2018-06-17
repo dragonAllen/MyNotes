@@ -261,11 +261,47 @@ Markdown编辑器
 1. 谷歌访问助手
 2. Wikiwand: Wikipedia Modernized (WIKI界面美化)
 3. Tampermonkey (油猴脚本)
-4. Octotree (GitHub左侧栏树状结构显示)
+4. Octotree (GitHub库树状结构显示)
 5. Google Translate (谷歌翻译)
 6. Extensions Manager (插件管理)
 7. AdBlock (广告屏蔽)
 8. EasyReader (仿Safari阅读模式)
+
+
+
+#### Safari
+
+Apple 家的浏览器,干净并自带阅读模式,适合阅读大量文本
+
+配置插件:
+
+1. 官方支持插件安装
+
+   打开菜单栏Safari-Preferences-Extensions-右下角more Extensions,在 Apple 官网安装
+
+2. 第三方插件安装
+
+   - 第一种办法(未尝试)
+
+   打开菜单栏Safari-Preferences-Advanced- 底部Show Develop menu in menu bar
+
+   打开菜单栏Develop- Show Extension builder,将*.safariextz的打包文件加入
+
+   - 第二种办法
+
+   如octotree安装,根据说明文档将octotree在 github 上的整份源代码下载下来,找到*.safariextz的打包文件,右键Open With Safari.app
+
+   ![](Safari插件安装.png)
+
+
+
+插件清单:
+
+1. AdBlock (广告屏蔽)
+2. Polyglot (谷歌翻译) 需要手动设置快捷键,联网下选中文本+快捷键一键翻译
+3. Evernote Web Clipper (Evernote支持)
+4. Tab Lister (管理标签页)
+5. Octotree (GitHub库树状结构显示)
 
 
 
