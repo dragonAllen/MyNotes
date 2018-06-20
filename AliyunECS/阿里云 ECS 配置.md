@@ -12,6 +12,8 @@
 
 [Nginx配置性能优化](https://blog.csdn.net/xifeijian/article/details/20956605)
 
+[Nginx 开启 Gzip 详解](https://blog.csdn.net/zhuyiquan/article/details/52709864)
+
 # 阿里云ECS简述
 
 ### 基础配置
@@ -298,6 +300,14 @@ PermitEmptyPasswords no
 
 Nginx 配置文件在/etc/nginx下
 
+启动脚本一般在/usr/sbin/nginx 脚本 
+
+默认配置文件(一般会修改它)在 /etc/nginx/conf.d/default.conf 
+
+自定义Nginx站点配置文件存放目录/etc/nginx/conf.d/ 
+
+全局配置文件(一般不会去修改它)在 /etc/nginx/nginx.conf 网站默认站点配置 /etc/nginx/conf.d/default.conf
+
 ![](nginx配置文件夹.png)
 
 #### nginx.conf配置详解
@@ -330,6 +340,7 @@ events {
     use epoll;
 }
 
+# 设定http服务器，利用它的反向代理功能提供负载均衡支持
 http {
 	# 设定日志格式
     log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
@@ -358,11 +369,46 @@ http {
 	# 设定mime类型,类型由mime.type文件定义
     include /etc/nginx/mime.types;
     default_type application/octet-stream;
+	
+	# 开启 gzip 压缩
+	gzip  on;
+    
+	# 启用gzip压缩的最小文件，小于设置值的文件将不会压缩
+    gzip_min_length 1k;
 
+    # gzip 压缩级别,1-9,数字越大压缩的越好,也越占用CPU时间
+    gzip_comp_level 1;
+
+    # 进行压缩的文件类型,javascript有多种形式,其中的值可以在 mime.types 文件中找到。
+    gzip_types text/plain application/javascript application/x-javascript text/css application/xml text/javascript application/x-httpd-php image/jpeg image/gif image/png application/vnd.ms-fontobject font/ttf font/opentype font/x-woff image/svg+xml;
+
+    # 是否在http header中添加Vary: Accept-Encoding,建议开启
+    gzip_vary on;
+
+    # 禁用IE 6 gzip
+    gzip_disable "MSIE [1-6]\.";
+
+    # 设置压缩所需要的缓冲区大小,32 4K表示按照内存页大小以4K为单位（即一个系统中内存页为4K）,申请32倍的内存空间     
+    gzip_buffers 32 4k;
+
+    # 设置gzip压缩针对的HTTP协议版本
+    gzip_http_version 1.0;
+	
+	#设定请求缓冲
+    client_header_buffer_size    1k;
+    large_client_header_buffers  4 4k;
+	
     # Load modular configuration files from the /etc/nginx/conf.d directory.
     # See http://nginx.org/en/docs/ngx_core_module.html#include
     # for more information.
     include /etc/nginx/conf.d/*.conf;
+    
+    # 设定负载均衡的服务器列表
+    upstream mysvr {
+        #weigth参数表示权值，权值越高被分配到的几率越大
+        server xxx.xxx.xxx.xxx:端口  weight=y;
+        server xxx.xxx.xxx.xxx:端口  weight=y;
+    }
     
     server {
     	# 监听80端口
@@ -370,7 +416,7 @@ http {
         listen  80 default_server;
         listen  [::]:80 default_server;
         # 定义使用 www.xx.cn访问
-        server_name  _;
+        server_name  ;
         # 定义服务器的默认网站根目录位置
         root /usr/share/nginx/html;
 
@@ -379,6 +425,7 @@ http {
 		
 		
         location / {
+        	proxy_pass http://xxx.xxx.xxx.xxx:端口;
         }
 		
 		# 定义错误提示页面
@@ -390,7 +437,20 @@ http {
             location = /50x.html {
         }
     }
+  }
 ```
+
+#### Gzip 说明
+
+Nginx实现资源压缩的原理是通过ngx_http_gzip_module模块拦截请求，并对需要做gzip的类型做gzip，ngx_http_gzip_module是Nginx默认集成的，不需要重新编译，直接开启即可;
+
+gzip_http_version选项
+
+用于识别http协议的版本，早期的浏览器不支持gzip压缩，用户会看到乱码，所以为了支持前期版本加了此选项。默认在http/1.0的协议下不开启gzip压缩;
+
+资料看到的生产环境问题:
+
+![](Gzip01.png)
 
 
 
