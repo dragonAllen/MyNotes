@@ -27,6 +27,18 @@
 [MAC软件安装记录](https://github.com/dragonAllen/MyNotes/blob/master/MyMacEnvironmentGuide/MAC%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E8%AE%B0%E5%BD%95.md)
 
 
+
+
+
+### WEB-Notes 文件夹:
+
+主要收录个人WEB学习笔记
+
+[计算机网络笔记](https://github.com/dragonAllen/MyNotes/blob/master/WEB-Notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%94%E8%AE%B0.md)
+
+
+
+
 #### IT资源链接整理 : 
 主要收录个人浏览器的部分书签链接(除去各大流量网站如GitHub),Github类目仅收录共享书籍
 
