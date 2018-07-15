@@ -34,7 +34,7 @@
 
 主要收录个人WEB学习笔记
 
-[计算机网络笔记](https://github.com/dragonAllen/MyNotes/blob/master/WEB-Notes/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%94%E8%AE%B0.md)
+[计算机网络笔记](https://github.com/dragonAllen/MyNotes/blob/master/WEB-Notes/ComputerNetworking/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%94%E8%AE%B0.md)
 
 
 
