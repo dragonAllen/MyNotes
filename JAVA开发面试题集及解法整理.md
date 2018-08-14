@@ -20,9 +20,15 @@ Windows:Ctrl+鼠标左键
 
 ## 网络资源
 
-[GitHub-技术面试基础整理](https://github.com/CyC2018/Interview-Notebook)
+[GitHub-笔试面试知识01](https://github.com/CyC2018/Interview-Notebook)
 
-[GitHub-笔试面试知识整理](https://hit-alibaba.github.io/interview/index.html)
+[GitHub-笔试面试知识02](https://hit-alibaba.github.io/interview/index.html)
+
+[GitHub-笔试面试知识03](https://github.com/crossoverJie/Java-Interview)
+
+[GitHub-笔试面试知识04](https://github.com/Snailclimb/Java-Guide)
+
+[GitHub-笔试面试知识05](https://github.com/kdn251/interviews/blob/master/README-zh-cn.md)
 
 [骆昊JAVA面试题(上)](https://blog.csdn.net/jackfrued/article/details/44921941)
 
