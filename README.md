@@ -28,8 +28,6 @@
 
 
 
-
-
 #### WEB-Notes 文件夹:
 
 主要收录个人WEB学习笔记
@@ -42,8 +40,12 @@
 #### IT资源链接整理 : 
 主要收录个人学习资源链接
 
+[IT资源链接整理 ](https://github.com/dragonAllen/MyNotes/blob/master/IT%E8%B5%84%E6%BA%90%E9%93%BE%E6%8E%A5%E6%95%B4%E7%90%86.md)
+
 
 #### JAVA开发面试题集及解法整理:
 主要收录笔试面试题目及解法,用于个人学习及查漏补缺</br>
 收集但不限于JAVA开发所需知识体系的题目及答案
+
+[面试题及知识整理](https://github.com/dragonAllen/MyNotes/blob/master/JAVA%E5%BC%80%E5%8F%91%E9%9D%A2%E8%AF%95%E9%A2%98%E9%9B%86%E5%8F%8A%E8%A7%A3%E6%B3%95%E6%95%B4%E7%90%86.md)
 
