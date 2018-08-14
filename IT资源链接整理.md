@@ -1,7 +1,5 @@
 # IT资源链接整理
 
-说明: 主要整理个人浏览器的部分书签链接(除去各大流量网站如GitHub),Github类目仅收录共享书籍
-
 MAC:Command+鼠标左键
 
 Windows:Ctrl+鼠标左键
