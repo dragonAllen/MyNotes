@@ -246,16 +246,6 @@ Windows:Ctrl+鼠标左键
 
 [米筐](https://www.ricequant.com/courses)
 
-[Jhipster-ORM框架](https://www.jhipster.tech/)
-
-[Angular](https://angular.io/)
-
-[Vue](https://cn.vuejs.org/)
-
-[git-book-git手册](https://git-scm.com/book/zh/v2)
-
-
-
 ## GitHub
 
 [计算机书籍01](https://github.com/EZLippi/practical-programming-books)
