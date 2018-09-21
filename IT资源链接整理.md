@@ -6,7 +6,7 @@ Windows:Ctrl+鼠标左键
 
 ------
 
-## 博客及网站
+## 博客
 
 [360奇舞团博客](https://75team.com/archives/)
 
@@ -222,6 +222,10 @@ Windows:Ctrl+鼠标左键
 
 [陶辉的博客](https://blog.csdn.net/russell_tao)
 
+
+
+## 网站
+
 [腾讯全端](http://www.alloyteam.com/)
 
 [腾讯玩书](http://tgideas.qq.com/)
@@ -242,9 +246,15 @@ Windows:Ctrl+鼠标左键
 
 [米筐](https://www.ricequant.com/courses)
 
+[Jhipster-ORM框架](https://www.jhipster.tech/)
+
+[Angular](https://angular.io/)
+
+[Vue](https://cn.vuejs.org/)
+
+[git-book-git手册](https://git-scm.com/book/zh/v2)
 
 
-------
 
 ## GitHub
 
