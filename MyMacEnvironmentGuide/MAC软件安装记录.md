@@ -6,13 +6,19 @@
 
 #### cmder
 
-终端神器
+等同于iterm2
 
 
 
 #### Zeal
 
 等同于Dash
+
+
+
+#### Listary
+
+等同于Afred
 
 ------
 
