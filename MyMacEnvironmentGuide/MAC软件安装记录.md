@@ -20,6 +20,12 @@
 
 等同于Afred
 
+
+
+#### Seer
+
+等同于MAC下的空格显示照片
+
 ------
 
 ### 效率工具
@@ -157,7 +163,6 @@ JavaScript开发工具
 
 7. CSS Format/JsFormat/HTML5/jQuery (适配语言)
 
-  
 
 #### Docker
 
