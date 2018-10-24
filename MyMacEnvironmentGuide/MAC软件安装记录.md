@@ -112,7 +112,6 @@ JAVA开发的集成环境,配置插件:
 
 13. SvgViewer2(查看SVG矢量图)
 
-    
 
 
 #### Pycharm
